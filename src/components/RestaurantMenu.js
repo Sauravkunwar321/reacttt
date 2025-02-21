@@ -1,4 +1,13 @@
+import { useEffect } from "react";
+
 const RestaurantMenu = () => {
+
+    useEffect( () => {
+
+    }, []);
+
+
+
     return (
         <div className="menu">
             <h1>Name of the restaurant</h1>
