@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router";
+import RestaurantMenu from "./components/RestaurantMenu";
 
 
 
@@ -24,10 +25,12 @@ const Routing = () => {
         <>
         <Routes>
         <Route path="/" element={<AppLayout />}  >
-        <Route path="/" element={<Body />} />
+        <Route index element={<Body />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact/> } />
+        <Route path="/restaurant/:resId" element={<RestaurantMenu />} /> 
         </Route>
+        
         <Route path="*" element={<Error />} />
 
       </Routes>
