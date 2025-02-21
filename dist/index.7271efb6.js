@@ -28766,7 +28766,11 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
 const RestaurantMenu = ()=>{
+    _s();
+    (0, _react.useEffect)(()=>{}, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "menu",
         children: [
@@ -28774,14 +28778,14 @@ const RestaurantMenu = ()=>{
                 children: "Name of the restaurant"
             }, void 0, false, {
                 fileName: "src/components/RestaurantMenu.js",
-                lineNumber: 4,
+                lineNumber: 13,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 children: "Menu"
             }, void 0, false, {
                 fileName: "src/components/RestaurantMenu.js",
-                lineNumber: 5,
+                lineNumber: 14,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -28790,36 +28794,37 @@ const RestaurantMenu = ()=>{
                         children: "Burgers"
                     }, void 0, false, {
                         fileName: "src/components/RestaurantMenu.js",
-                        lineNumber: 9,
+                        lineNumber: 18,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: "Pizza"
                     }, void 0, false, {
                         fileName: "src/components/RestaurantMenu.js",
-                        lineNumber: 10,
+                        lineNumber: 19,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         children: "Coke"
                     }, void 0, false, {
                         fileName: "src/components/RestaurantMenu.js",
-                        lineNumber: 11,
+                        lineNumber: 20,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/RestaurantMenu.js",
-                lineNumber: 8,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/RestaurantMenu.js",
-        lineNumber: 3,
+        lineNumber: 12,
         columnNumber: 9
     }, undefined);
 };
+_s(RestaurantMenu, "OD7bBpZva5O2jO+Puf00hKivP7c=");
 _c = RestaurantMenu;
 exports.default = RestaurantMenu;
 var _c;
@@ -28830,6 +28835,6 @@ $RefreshReg$(_c, "RestaurantMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map
